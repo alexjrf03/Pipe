@@ -8,6 +8,8 @@ import { Component } from '@angular/core';
 export class AppComponent {
 
   nombre:string = 'Capitan America';
+
+  nombre2:string = 'aLexeY jOsE roJas flOrEs'
   
   arreglo:number[] = [1,2,3,4,5,6,7,8,9,10];
 
@@ -18,6 +20,8 @@ export class AppComponent {
   salario:number = 1234.5;
 
   fecha:Date = new Date();
+
+  idioma:string = 'en';
 
   valorPromesa = new Promise( (resolve) => {
 
