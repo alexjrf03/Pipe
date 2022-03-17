@@ -21,7 +21,11 @@ export class AppComponent {
 
   fecha:Date = new Date();
 
+  activar:boolean = true;
+
   idioma:string = 'en';
+
+  videoUrl:string = 'https://www.youtube.com/embed/hIy1Pn-_Mh4'
 
   valorPromesa = new Promise( (resolve) => {
 
